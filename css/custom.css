@@ -1,5 +1,5 @@
 .alexa {
-    color: #2DC6FA;
+    color: #81B4B8;
 }
 .mobile {
     color: #e01f1f;
@@ -17,7 +17,7 @@ a .mobile, a .cologne, a .hack, a .institute {
     text-decoration: underline;
 }
 .navbar .join a {
-    background-color: #2DC6FA;
+    background-color: #C4635A;
 }
 .btn-register, .btn-register:hover, .btn-register:focus {
     font-size: 26px;
@@ -25,7 +25,7 @@ a .mobile, a .cologne, a .hack, a .institute {
 }
 .btn-register {
     color: black;
-    background-color: #2DC6FA;
+    background-color: #C4635A;
     border-color: white;
 }
 .btn-register:hover, .btn-register:focus {
