@@ -24,13 +24,13 @@ a .mobile, a .cologne, a .hack, a .institute {
     border-width: 2px;
 }
 .btn-register {
-    color: black;
+    color: white;
     background-color: #C4635A;
     border-color: white;
 }
 .btn-register:hover, .btn-register:focus {
-    color: black;
-    background-color: #9ADCFF;
+    color: #fff;
+    background-color: #C4635A;
     border-color: white;
 }
 
