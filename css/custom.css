@@ -1,6 +1,14 @@
-.alexa {
-    color: #81B4B8;
+/* used the blue for links, so we use only the other three colors here */
+.google {
+    color: #F03F22;
 }
+#speakers h2.google, #prizes h2.google, #join h2.google:nth-of-type(1), #partner div:nth-of-type(1) h2.google {
+    color: #FFBE00;
+}
+#mentors h2.google, #jury h2.google, #join h2.google:nth-of-type(2), #partner div:nth-of-type(3) h2.google {
+    color: #34A853;
+}
+
 .mobile {
     color: #e01f1f;
 }
@@ -17,7 +25,7 @@ a .mobile, a .cologne, a .hack, a .institute {
     text-decoration: underline;
 }
 .navbar .join a {
-    background-color: #C4635A;
+    background-color: #3E82F7;
 }
 .btn-register, .btn-register:hover, .btn-register:focus {
     font-size: 26px;
@@ -25,12 +33,12 @@ a .mobile, a .cologne, a .hack, a .institute {
 }
 .btn-register {
     color: white;
-    background-color: #C4635A;
+    background-color: #3E82F7;
     border-color: white;
 }
 .btn-register:hover, .btn-register:focus {
     color: #fff;
-    background-color: #C4635A;
+    background-color: #3E82F7;
     border-color: white;
 }
 

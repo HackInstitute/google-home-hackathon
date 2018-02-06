@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #C4635A;
+    color: #3E82F7;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #81B4B8;
+    color: #F03F22;
 }
 
 .light {
@@ -74,7 +74,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 500;
-    color: #C4635A
+    color: #3E82F7
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -137,13 +137,15 @@ a:focus {
 }
 
 .intro {
-    display: table;
+    display: flex;
+    flex-direction: column;
+
     width: 100%;
     height: auto;
     padding: 100px 0;
     text-align: center;
     color: #000;
-    background: url(../img/background-google-home-banner.jpg) no-repeat center center scroll;
+    background: url(../img/background-banner.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -151,39 +153,53 @@ a:focus {
     -o-background-size: cover;
 }
 
-.intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
+.intro .intro-top {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
-.intro .intro-body h1.brand-heading {
+.intro .intro-bottom {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro .intro-keywords {
+    font-size: 30px;
+    color: #1B191C;
+    text-shadow: 0 0 20px white;
+    padding-top: 1em;
+}
+
+.intro h1.brand-heading {
     font-size: 40px;
     font-weight: 300;
     text-shadow: 0 0 20px white;
 }
 
-.intro .intro-body h1.brand-heading strong {
+.intro h1.brand-heading strong {
   font-weight: 500;
 }
 
-.intro .intro-body h2.brand-heading {
+.intro h2.brand-heading {
     color: #1B191C;
     font-size: 30px;
     font-weight: 300;
     text-shadow: 0 0 20px white;
 }
 
-.intro .intro-body .intro-keywords {
-    font-size: 30px;
-    color: #1B191C;
-    text-shadow: 0 0 20px white;
-}
-
-.intro .intro-body .intro-text {
+.intro .intro-text {
     font-size: 18px;
     color: #1B191C;
     font-weight: 400;
     text-shadow: 0 0 20px white;
+}
+
+.intro .btn-circle {
+    border-color: black;
+    color: black;
 }
 
 @media(min-width:767px) {
@@ -192,23 +208,23 @@ a:focus {
         padding: 0;
     }
 
-    .intro .intro-body {
+    .intro {
         padding-top: 60px;
     }
 
-    .intro .intro-body h1.brand-heading {
+    .intro h1.brand-heading {
         font-size: 84px;
     }
 
-    .intro .intro-body h2.brand-heading {
-        font-size: 64px;
+    .intro h2.brand-heading {
+        font-size: 54px;
     }
 
-    .intro .intro-body .intro-keywords {
+    .intro .intro-keywords {
         padding-top: 3em;
     }
 
-    .intro .intro-body .intro-text {
+    .intro .intro-text {
         font-size: 28px;
     }
 }
