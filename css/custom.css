@@ -2,10 +2,10 @@
 .google {
     color: #F03F22;
 }
-#speakers h2.google, #prizes h2.google, #join h2.google:nth-of-type(1), #partner div:nth-of-type(1) h2.google {
+#speakers h2.google, #prizes h2.google, #jobs h2.google, #orga h2.google {
     color: #FFBE00;
 }
-#mentors h2.google, #jury h2.google, #join h2.google:nth-of-type(2), #partner div:nth-of-type(3) h2.google {
+#mentors h2.google, #jury h2.google, #join h2.google:nth-of-type(1), #partner > div:nth-of-type(1) h2.google {
     color: #34A853;
 }
 
