@@ -1,4 +1,4 @@
-## Google Home Hackthon, March 9th 2018, Cologne
+## Google Home Hackathon, March 9th 2018, Cologne
 
 ## What you can expect
 
